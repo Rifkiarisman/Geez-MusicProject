@@ -44,10 +44,10 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 # Edit Yang Seharusnya Lu Edit Aja:D
 # Tapi Jangan di Hapus Special Thanks To nya Yaaa :'D
 
-        reply_markup=InlineKeyboardMarkup(
+        reply_markup=InlineKeyboardMarkup
             [
                 [
-                    InlineKeyboardButton(
+                    InlineKeyboardButton
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 ]
             ]
